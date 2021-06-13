@@ -19,6 +19,7 @@ apps:
 parts:
   aws:
     plugin: python
+    requirements: [ "requirements.txt" ]
     source: .
     stage-packages:
       - groff-base
